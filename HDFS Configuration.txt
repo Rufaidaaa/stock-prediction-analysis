@@ -1,0 +1,8 @@
+For copying command from GCS
+
+gsutil cp gs://bigdatabucket123/data/Stock_data.csv .
+
+For pasting in HDFS 
+
+hadoop fs -mkdir -p /user/stockdata
+hadoop fs -copyFromLocal Stock_data.csv /user/stockdata/

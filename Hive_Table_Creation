@@ -1,0 +1,15 @@
+CREATE EXTERNAL TABLE stock_data (
+    `Date` STRING,
+    Low STRING,
+    Open STRING,
+    Volume STRING,
+    High STRING,
+    Close STRING,
+    AdjustedClose STRING
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE
+LOCATION '/user/stockdata/';
+
+SELECT * FROM stock_Data LIMIT 10;
