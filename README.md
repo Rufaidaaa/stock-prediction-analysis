@@ -23,10 +23,3 @@ An end-to-end Big Data pipeline for predicting stock price movements using:
 | Machine Learning | Spark MLlib |
 | Infrastructure | Docker, Terraform |
 
-## Setup Instructions
-
-### Prerequisites
-- Google Cloud account
-- gcloud CLI installed
-- Python 3.8+
-
